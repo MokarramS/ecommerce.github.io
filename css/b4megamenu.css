@@ -1,0 +1,28 @@
+.mega-menu{
+    width: 670px;
+    padding: 15px;
+    overflow: hidden;
+    font-size: 15px;
+}
+.mega-menu p{
+    font-size: 13px;
+}
+.mega-menu a{
+    color: #000;
+    text-decoration: none;
+    font-size: 13px;
+}
+.mega-menu .sub-menu-heading{
+    color: #ff2800 !important;
+    text-transform: uppercase;
+}
+
+@media(max-width:700px){
+    .mega-menu{
+        width: 320px;
+    }
+    .menu-col{
+        padding: 10px;
+    }
+    
+}
